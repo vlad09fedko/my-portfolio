@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
     <title>My portfolio</title>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <div class="navbar container">
@@ -140,15 +141,15 @@
             <form action="#" class="form">
                 <div class="input-group">
                     <label for="userName" class="input-label">Имя</label>
-                    <input type="text" class="input" id="userName">
+                    <input type="text" class="input" id="userName" name="client_name">
                 </div>
                 <div class="input-group">
                     <label for="userEmail" class="input-label">Email</label>
-                    <input type="text" class="input" id="userEmail">
+                    <input type="text" class="input" id="userEmail" name="client_email">
                 </div>
                 <div class="input-group">
                     <label for="userMessage" class="input-label">Сообщение</label>
-                    <textarea id="userMessage" cols="30" rows="30" class="input textarea"></textarea>
+                    <textarea id="userMessage" cols="30" rows="30" class="input textarea" name="client_message"></textarea>
                 </div>
                 <div class="button-group">
                     <button type="submit" class="submit-button">
